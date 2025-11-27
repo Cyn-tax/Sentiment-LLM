@@ -1,0 +1,206 @@
+{
+  "total_processed": 25,
+  "results": [
+    {
+      "row": 2,
+      "feedback_text": "The new dashboard is incredibly fast and intuitive. Great job, team!",
+      "predicted_sentiment": "Positive",
+      "true_sentiment": "Positive"
+    },
+    {
+      "row": 3,
+      "feedback_text": "Your customer support was fantastic! Maria was so helpful and resolved my issue in minutes.",
+      "predicted_sentiment": "Positive",
+      "true_sentiment": "Positive"
+    },
+    {
+      "row": 4,
+      "feedback_text": "I absolutely love this product. It has saved me so much time.",
+      "predicted_sentiment": "Positive",
+      "true_sentiment": "Positive"
+    },
+    {
+      "row": 5,
+      "feedback_text": "While the initial setup took a moment, the performance improvements are very noticeable. I'm happy with the update.",
+      "predicted_sentiment": "Positive",
+      "true_sentiment": "Positive"
+    },
+    {
+      "row": 6,
+      "feedback_text": "Five stars! Would recommend to anyone.",
+      "predicted_sentiment": "Positive",
+      "true_sentiment": "Positive"
+    },
+    {
+      "row": 7,
+      "feedback_text": "The app crashed three times today while I was trying to save my work. I lost everything.",
+      "predicted_sentiment": "Negative",
+      "true_sentiment": "Negative"
+    },
+    {
+      "row": 8,
+      "feedback_text": "I was charged twice for my subscription this month. This is unacceptable.",
+      "predicted_sentiment": "Negative",
+      "true_sentiment": "Negative"
+    },
+    {
+      "row": 9,
+      "feedback_text": "The latest update removed a feature I used every day. Why would you do that?",
+      "predicted_sentiment": "Negative",
+      "true_sentiment": "Negative"
+    },
+    {
+      "row": 10,
+      "feedback_text": "The user interface is confusing and looks very outdated.",
+      "predicted_sentiment": "Negative",
+      "true_sentiment": "Negative"
+    },
+    {
+      "row": 11,
+      "feedback_text": "I've been on hold for 45 minutes trying to reach support. Terrible service.",
+      "predicted_sentiment": "Negative",
+      "true_sentiment": "Negative"
+    },
+    {
+      "row": 12,
+      "feedback_text": "Wow, the price went up again with no new features. Just great.",
+      "predicted_sentiment": "Negative",
+      "true_sentiment": "Negative"
+    },
+    {
+      "row": 13,
+      "feedback_text": "How do I change my payment information?",
+      "predicted_sentiment": "Neutral",
+      "true_sentiment": "Neutral"
+    },
+    {
+      "row": 14,
+      "feedback_text": "I need a copy of my invoice for last month.",
+      "predicted_sentiment": "Neutral",
+      "true_sentiment": "Neutral"
+    },
+    {
+      "row": 15,
+      "feedback_text": "Could you add a feature for exporting data to PDF?",
+      "predicted_sentiment": "Neutral",
+      "true_sentiment": "Neutral"
+    },
+    {
+      "row": 16,
+      "feedback_text": "I need to reset my password but the link has expired.",
+      "predicted_sentiment": "Negative",
+      "true_sentiment": "Neutral"
+    },
+    {
+      "row": 17,
+      "feedback_text": "What are the system requirements for running the software?",
+      "predicted_sentiment": "Neutral",
+      "true_sentiment": "Neutral"
+    },
+    {
+      "row": 18,
+      "feedback_text": "The trial period for my account ends in three days.",
+      "predicted_sentiment": "Neutral",
+      "true_sentiment": "Neutral"
+    },
+    {
+      "row": 19,
+      "feedback_text": "The response time is incredibly slow, making the tool almost unusable during peak hours.",
+      "predicted_sentiment": "Negative",
+      "true_sentiment": "Negative"
+    },
+    {
+      "row": 20,
+      "feedback_text": "Thank you for the quick turnaround on my ticket, the issue is now resolved.",
+      "predicted_sentiment": "Positive",
+      "true_sentiment": "Positive"
+    },
+    {
+      "row": 21,
+      "feedback_text": "The documentation is clear and easy to follow.",
+      "predicted_sentiment": "Positive",
+      "true_sentiment": "Positive"
+    },
+    {
+      "row": 22,
+      "feedback_text": "The button to confirm the purchase is not working on the mobile app.",
+      "predicted_sentiment": "Negative",
+      "true_sentiment": "Negative"
+    },
+    {
+      "row": 23,
+      "feedback_text": "I am trying to find out your business hours.",
+      "predicted_sentiment": "Neutral",
+      "true_sentiment": "Neutral"
+    },
+    {
+      "row": 24,
+      "feedback_text": "The product does what it says, but the design could be improved.",
+      "predicted_sentiment": "Negative",
+      "true_sentiment": "Negative"
+    },
+    {
+      "row": 25,
+      "feedback_text": "Where is the 'Settings' menu located?",
+      "predicted_sentiment": "Neutral",
+      "true_sentiment": "Neutral"
+    },
+    {
+      "row": 26,
+      "feedback_text": "This is by far the best tool I have used for project management.",
+      "predicted_sentiment": "Positive",
+      "true_sentiment": "Positive"
+    }
+  ],
+  "confusion_matrix": {
+    "matrix": {
+      "Positive": {
+        "Positive": 8,
+        "Negative": 0,
+        "Neutral": 0
+      },
+      "Negative": {
+        "Positive": 0,
+        "Negative": 9,
+        "Neutral": 0
+      },
+      "Neutral": {
+        "Positive": 0,
+        "Negative": 1,
+        "Neutral": 7
+      }
+    },
+    "accuracy": 96.0,
+    "total_correct": 24,
+    "total_processed": 25,
+    "class_metrics": {
+      "Positive": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "true_positives": 8,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "true_negatives": 17
+      },
+      "Negative": {
+        "precision": 0.9,
+        "recall": 1.0,
+        "f1_score": 0.9474,
+        "true_positives": 9,
+        "false_positives": 1,
+        "false_negatives": 0,
+        "true_negatives": 15
+      },
+      "Neutral": {
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1_score": 0.9333,
+        "true_positives": 7,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "true_negatives": 17
+      }
+    }
+  }
+}
